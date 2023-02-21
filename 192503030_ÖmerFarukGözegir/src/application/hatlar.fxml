@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="379.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.hatlarController">
+   <children>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="365.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="img_hat" fitHeight="48.0" fitWidth="361.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/smaq1iq.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_bir" fitHeight="61.0" fitWidth="362.0" onMouseClicked="#img_bir_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/j7jqryh.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_iki" fitHeight="46.0" fitWidth="362.0" onMouseClicked="#img_iki_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/knpw7nn.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_uc" fitHeight="48.0" fitWidth="361.0" onMouseClicked="#img_uc_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/i9n4h30.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_dort" fitHeight="48.0" fitWidth="361.0" onMouseClicked="#img_dort_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/ovjba79.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_bes" fitHeight="48.0" fitWidth="361.0" onMouseClicked="#img_bes_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/kwwsike.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_alti" fitHeight="48.0" fitWidth="361.0" onMouseClicked="#img_alti_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/rqkqw8i.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img_yedi" fitHeight="48.0" fitWidth="361.0" onMouseClicked="#img_yedi_Clicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/gajw8ws.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

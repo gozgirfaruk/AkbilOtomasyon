@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.adminController">
+   <children>
+      <SplitPane dividerPositions="0.7409638554216867" layoutX="155.0" layoutY="38.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="table_gorus" layoutX="72.0" layoutY="14.0" prefHeight="292.0" prefWidth="398.4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="c_kart" prefWidth="106.39996033906937" text="Kart Numarası" />
+                      <TableColumn fx:id="c_tür" prefWidth="71.2000732421875" text="Tür" />
+                        <TableColumn fx:id="c_kategori" prefWidth="88.00001525878906" text="Kategori" />
+                        <TableColumn fx:id="c_mesaj" prefWidth="154.4000244140625" text="Mesaj" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button fx:id="btn_sil" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btn_sil_Click" prefHeight="54.0" prefWidth="359.0" text="Seçili Görüş Sil" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

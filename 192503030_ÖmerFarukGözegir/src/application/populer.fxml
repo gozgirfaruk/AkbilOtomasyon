@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #d2e1e6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.populerController">
+   <children>
+      <Label layoutX="126.0" layoutY="14.0" prefHeight="36.0" prefWidth="147.0" text="POPÜLER YERLER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="106.0" fitWidth="159.0" layoutX="21.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@https://i.hizliresim.com/pu52c5i.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="159.0" layoutX="21.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@https://i.hizliresim.com/bv9026y.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="159.0" layoutX="21.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rumkale.png" />
+         </image></ImageView>
+      <TextArea editable="false" layoutX="203.0" layoutY="68.0" prefHeight="74.0" prefWidth="188.0" text="Gazi şehrin 11 ay boyunca düşmana karşı verdiği mücadeleyi tüm ayrıntılarıyla halka tekrar yaşatacak, Antep Savunması’nın her anını gözler önüne seren 25 Aralık Gaziantep Savunması Kahramanlık Panoraması ve Müzesi" wrapText="true" />
+      <Label layoutX="203.0" layoutY="50.0" text="-25 Aralık Panorama Müzesi">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="203.0" layoutY="178.0" prefHeight="74.0" prefWidth="188.0" text="Tarihi Caminin kimin tarafından yapıldığı bilinmemekle birlikte Halife HZ:Ömer zamanında yapıldığı söylenir. Bir rivayete göre, bu cami her yıl  tabana doğru çökmekte ve toprağa gömülmektedir. Tamamen battığı zaman kıyametin kopacağı söylenenler arasındadır." wrapText="true" />
+      <Label layoutX="200.0" layoutY="160.0" text="-Tarihi Ömeriye Camii-">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="203.0" layoutY="262.0" text="-RUMKALE-">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextArea layoutX="203.0" layoutY="279.0" prefHeight="106.0" prefWidth="188.0" text="&quot;Hromgla&quot; adıyla bilinen kale daha sonra &quot;RumKale&quot; olarak adlandırılmıştır.Rumkaleye kasaba köylerden ve Halfeti'nden teknelerle kolaylıkla ulaşılabilmektedir.Kale iki beden halindedir." wrapText="true" />
+   </children>
+</AnchorPane>

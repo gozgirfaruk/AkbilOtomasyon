@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="309.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.istekKutusuController">
+   <children>
+      <VBox layoutX="120.0" layoutY="35.0" prefHeight="400.0" prefWidth="309.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@https://i.hizliresim.com/hf477wo.png" />
+               </image>
+            </ImageView>
+            <ComboBox fx:id="combo_tür" prefHeight="46.0" prefWidth="312.0" promptText="TÜR SEÇİN" />
+            <ComboBox fx:id="combo_katgori" prefHeight="46.0" prefWidth="312.0" promptText="KATEGORİ SEÇİN" />
+            <TextField fx:id="txt_kart" prefHeight="46.0" prefWidth="312.0" promptText="KART NUMARASI" />
+            <TextArea fx:id="txt_area_mesaj" prefHeight="200.0" prefWidth="200.0" promptText="Dilek yada Şikayetinizi Yazınız..." />
+            <Button fx:id="btn_gönder" mnemonicParsing="false" onMouseClicked="#btn_gönder_Clicked" prefHeight="75.0" prefWidth="312.0" text="GÖNDER" underline="true">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

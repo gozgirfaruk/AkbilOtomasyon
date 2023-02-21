@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.anaSayfaController">
+   <children>
+      <SplitPane dividerPositions="0.4221887550200803" orientation="VERTICAL" prefHeight="400.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+            <AnchorPane prefHeight="166.0" prefWidth="381.0">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="116.0" layoutX="83.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/6icr98j.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="140.0" fitWidth="116.0" layoutX="199.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/6icr98j.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="119.0" layoutY="12.0" text="KentKart Akıllı Ulaşım">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="241.0" prefWidth="398.0">
+               <children>
+                  <TextField fx:id="txt_ara" focusTraversable="false" layoutX="20.0" layoutY="14.0" prefHeight="34.0" prefWidth="294.0" promptText="Kart,Hat Veya Popüler Yer Ara..." />
+                  <Button layoutX="325.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="26.0">
+                     <graphic>
+                        <ImageView fx:id="btn_ara" fitHeight="26.0" fitWidth="52.0" onMouseClicked="#btn_ara_Clicked" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@mercek.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label layoutX="38.0" layoutY="63.0" prefHeight="18.0" prefWidth="78.0" text="Kart İşlemleri" />
+                  <Label layoutX="146.0" layoutY="63.0" text="Bakiye Sorgula" />
+                  <Label layoutX="269.0" layoutY="63.0" text="Popüler Yerler" />
+                  <Label layoutX="58.0" layoutY="143.0" prefHeight="18.0" prefWidth="53.0" text="Hatlar" />
+                  <Label layoutX="146.0" layoutY="143.0" prefHeight="18.0" prefWidth="78.0" text="Görüş Bildir" />
+                  <Label layoutX="269.0" layoutY="143.0" text="Çıkış Yap" />
+                  <ImageView fx:id="img_kart" fitHeight="53.0" fitWidth="110.0" layoutX="46.0" layoutY="85.0" onMouseClicked="#img_kart_Clicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/a5hcbdp.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img_bakiye" fitHeight="53.0" fitWidth="110.0" layoutX="159.0" layoutY="85.0" onMouseClicked="#img_bakiye_Clicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/ivzjgap.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img_pop" fitHeight="53.0" fitWidth="110.0" layoutX="270.0" layoutY="92.0" onMouseClicked="#img_pop_Clicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/1m8mqqk.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img_hat" fitHeight="53.0" fitWidth="110.0" layoutX="47.0" layoutY="161.0" onMouseClicked="#img_hat_Clicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/grbunpj.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img_posta" fitHeight="53.0" fitWidth="110.0" layoutX="159.0" layoutY="161.0" onMouseClicked="#img_posta_Clicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/qwjen9w.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img_exit" fitHeight="43.0" fitWidth="53.0" layoutX="277.0" layoutY="171.0" onMouseClicked="#img_exit_Clicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@https://i.hizliresim.com/t21do7o.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
